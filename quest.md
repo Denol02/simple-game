@@ -43,8 +43,6 @@ int main()
 
         cout << "You have " << h << "HP " << p << " Power" << endl;
 
-        srand((unsigned)time(NULL));
-
         int a;
         int b = rand() % 1;
 
@@ -91,6 +89,7 @@ int main()
     case 2:
     {
         system("cls");
+        srand((unsigned)time(NULL));
         int g = rand() % 100;
         if (g > 90)
         {
